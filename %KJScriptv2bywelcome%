@@ -1,0 +1,858 @@
+local CharacterName = "KJ"
+local CharacterIcon = 135731666066455
+local function Script()for _, tools in ipairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+if tools:IsA("Tool") then
+tools:Destroy()
+end
+end
+
+local ToolName = "Ravage"
+local Animation = your_animationid
+
+local t = Instance.new("Tool")
+t.Name = ToolName
+t.RequiresHandle = false
+t.CanBeDropped = false
+t.Parent = game.Players.LocalPlayer.Backpack
+t.Activated:Connect(function()local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+ 
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://16945573694"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0" -- Reset animation ID
+Anim:Play()
+
+local soundeffect = Instance.new("Sound")
+soundeffect.SoundId = "rbxassetid://16945495411"
+soundeffect.Parent = game.Players.LocalPlayer.Character.Torso
+soundeffect:Play()
+soundeffect.Volume = 1
+
+
+wait(0.1)
+
+
+-- Create a sound and play it from a general location in the game world
+        local soundId = "rbxassetid://1694551770"
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = game.Workspace  -- Parent the sound to the Workspace
+        sound:Play()
+sound.Volume = 2
+
+
+wait(0.6)
+
+
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+ 
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://16945550029"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0" -- Reset animation ID
+Anim:Play()
+
+local player = game.Workspace.Live:WaitForChild("Weakest Dummy")
+local dummyHumanoid = player:WaitForChild("Humanoid")
+
+-- Create and load the animation instance
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://16945557433"
+
+-- Ensure the animation is preloaded
+local playAnim2 = dummyHumanoid:LoadAnimation(anim2)
+
+-- Play the animation
+playAnim2:Play()
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+
+-- Create a sound and play it from a general location in the game world
+        local soundId = "rbxassetid://16945691441"
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = game.Workspace  -- Parent the sound to the Workspace
+        sound:Play()
+sound.Volume = 4
+
+-- Create a sound and play it from a general location in the game world
+        local soundId = "rbxassetid://16945593216"
+        local sound = Instance.new("Sound")
+        sound.SoundId = soundId
+        sound.Parent = game.Workspace  -- Parent the sound to the Workspace
+        sound:Play()
+sound.Volume = 4
+
+
+wait(1.7)
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["Right Arm"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+
+
+wait(0.4)
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace = game:GetService("Workspace")
+
+-- Wait for the player to load
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local rootPart = character:WaitForChild("HumanoidRootPart")
+
+-- Navigate to "Weakest Dummy" inside Workspace > Live
+local liveFolder = Workspace:FindFirstChild("Live")
+local weakestDummy = liveFolder and liveFolder:FindFirstChild("Weakest Dummy")
+
+if not weakestDummy then
+    error("Weakest Dummy model not found in Workspace.Live")
+end
+
+-- Find the "Torso" part inside "Weakest Dummy"
+local torso = weakestDummy:FindFirstChild("Torso")
+if not torso then
+    error("Torso part not found in Weakest Dummy")
+end
+
+-- Check for Resources folder in ReplicatedStorage
+local resourcesFolder = ReplicatedStorage:WaitForChild("Resources")
+
+-- Check for KJEffects folder inside Resources
+local kjEffectsFolder = resourcesFolder:WaitForChild("KJEffects")
+
+-- Check for speedlinesandstuff part inside KJEffects
+local speedlinesandstuffPart = kjEffectsFolder:WaitForChild("barrage")
+
+-- Duplicate the speedlinesandstuff part
+local speedlinesandstuffClone = speedlinesandstuffPart:Clone()
+
+-- Calculate the desired CFrame using the "Torso" position
+local desiredCFrame = CFrame.new(torso.Position)
+
+-- Set the desired CFrame for the clone
+speedlinesandstuffClone.CFrame = desiredCFrame
+
+-- Put the duplicate in Workspace
+speedlinesandstuffClone.Parent = Workspace
+
+-- Function to enable all ParticleEmitters
+local function enableParticleEmitters(parent)
+    for _, descendant in ipairs(parent:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Enabled = true
+        end
+    end
+end
+
+-- Example usage after your dash effect completes
+spawn(function()
+    -- Simulating end of dash effect
+    wait(0)  -- Adjust the wait time as needed
+
+    -- Enable all ParticleEmitters inside speedlinesandstuffClone
+    enableParticleEmitters(speedlinesandstuffClone)
+end)
+wait(2)
+workspace.barrage:Destroy()
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local RunService = game:GetService("RunService")
+
+local function createSpinningRocks(character)
+    local rocks = {}
+
+    for i = 1, 5 do
+        local rock = Instance.new("Part")
+        rock.Size = Vector3.new(0.5, 0.5, 0.5)
+        rock.Shape = Enum.PartType.Block
+        rock.Anchored = true
+        rock.CanCollide = false
+        rock.Color = Color3.fromRGB(128, 128, 128) -- Grey color
+        rock.Material = Enum.Material.Slate -- Rock texture
+        rock.Parent = workspace
+
+        table.insert(rocks, rock)
+    end
+
+    local startTime = tick()
+    local duration = 0.7 -- Duration in seconds
+    local radius = 5 -- Radius of the circle
+    local rotationSpeed = 2 * math.pi -- Full rotation in 1 second
+
+    -- Update function to spin the rocks
+    local connection
+    connection = RunService.RenderStepped:Connect(function()
+        local elapsedTime = tick() - startTime
+        local angle = elapsedTime * rotationSpeed
+        local angleStep = 2 * math.pi / #rocks
+
+        for index, rock in ipairs(rocks) do
+            local rockAngle = angle + index * angleStep
+            local offsetX = math.cos(rockAngle) * radius
+            local offsetZ = math.sin(rockAngle) * radius
+            rock.Position = character.PrimaryPart.Position + Vector3.new(offsetX, 2, offsetZ)
+        end
+
+        -- Destroy the rocks after the duration is over
+        if elapsedTime >= duration then
+            for _, rock in ipairs(rocks) do
+                rock:Destroy()
+            end
+            connection:Disconnect() -- Stop updating after destruction
+        end
+    end)
+end
+
+-- Call the function to create spinning rocks
+createSpinningRocks(character)
+
+-- Update the function if the player's character changes
+player.CharacterAdded:Connect(function(newCharacter)
+    character = newCharacter
+    createSpinningRocks(newCharacter)
+end)
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["RUNAROUNDWIND"].RUNAROUNDWIND:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+
+wait(1.4)
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["HitParticles"].Hit:Clone()
+    hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+        for _, child in ipairs(hit1:GetChildren()) do
+            if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+                child:Emit(1) -- Emit 20 particles
+            end
+        end
+local text = "Ravaging And Beating Up People..."
+
+local chatService=game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")local function sendMessage(text)chatService:WaitForChild("SayMessageRequest"):FireServer(text,"All")end sendMessage(text)
+local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. Animation
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+p:Play()
+end)
+
+local tool = Instance.new("Tool")
+tool.Name = "Swift Sweep"
+tool.RequiresHandle = false
+tool.CanBeDropped = false
+tool.ToolTip = "A move from KJ."
+
+local function activateTool()
+    
+local ClientAnimation = 16944265635
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://" .. ClientAnimation
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0"
+Anim:Play()
+Anim.TimePosition = StartTime
+Anim:AdjustSpeed(Speed)
+delay(Duration, function() 
+Anim:Stop()
+end)
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://16944636115"
+sound.Volume = 1
+sound.Parent = workspace
+sound:Play()
+local text = "Sweeping My Way Outta Here..."
+
+local chatService=game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")local function sendMessage(text)chatService:WaitForChild("SayMessageRequest"):FireServer(text,"All")end sendMessage(text)
+end
+
+local equippedConnection
+equippedConnection = tool.Equipped:Connect(function()
+    activateTool()
+end)
+
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+local ToolName = "Collateral Ruin"
+local Animation = your_animationid
+
+local t = Instance.new("Tool")
+t.Name = ToolName
+t.RequiresHandle = false
+t.CanBeDropped = false
+t.Parent = game.Players.LocalPlayer.Backpack
+t.Activated:Connect(function()local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://17325303798"
+sound.Volume = 1
+sound.Parent = workspace
+sound:Play()
+local player = game.Players.LocalPlayer
+repeat wait() until player.Character.Humanoid
+local humanoid = player.Character.Humanoid
+    
+local anim = Instance.new("Animation")
+anim.AnimationId = "rbxassetid://17325254223"
+    
+local playAnim = humanoid:LoadAnimation(anim)
+anim.AnimationId = "rbxassetid://0"
+playAnim:Play()
+
+
+wait(1)
+
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningpartysmoke:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(3) -- Emit 20 particles
+        end
+    end
+local collateral1 = game.ReplicatedStorage.Resources.KJEffects["spinnyweenyspinner"].Attachment:Clone()
+collateral1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral2 = game.ReplicatedStorage.Resources.KJEffects["spinnyweenyspinner"].Emit:Clone()
+collateral2.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral3 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningparty:Clone()
+collateral3.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral4 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningpartysmoke:Clone()
+collateral4.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+
+
+wait(0.2)
+
+
+playAnim:AdjustSpeed(0)
+
+
+wait(0.3)
+
+
+playAnim:AdjustSpeed(1)
+
+
+local player = game.Players.LocalPlayer
+local playerCharacter = player.Character or player.CharacterAdded:Wait()
+
+local replicatedStorage = game:GetService("ReplicatedStorage")
+local resourcesFolder = replicatedStorage:WaitForChild("Resources")
+local kjEffectsFolder = resourcesFolder:WaitForChild("KJEffects")
+local thingNearOne = kjEffectsFolder:WaitForChild("SpinnerDownMesh")
+local mesh = thingNearOne:WaitForChild("Mesh")
+
+if mesh then
+    local part = Instance.new("Part")
+    part.Size = Vector3.new(1, 1, 1)
+    part.Anchored = true
+    part.CanCollide = false
+    part.Transparency = 1  -- Set the part's transparency
+    part.Parent = game.Workspace
+
+    local meshClone = mesh:Clone()
+    meshClone.Parent = part
+
+    local decal = Instance.new("Decal")
+    decal.Texture = "rbxassetid://9572542664"
+    decal.Face = Enum.NormalId.Front
+    decal.Parent = part
+
+    local humanoidRootPart = playerCharacter:WaitForChild("HumanoidRootPart")
+    local offset = Vector3.new(0, 5, 0)
+    part.CFrame = CFrame.new(humanoidRootPart.Position + offset) * CFrame.Angles(math.rad(-2000), 0, 190)
+
+    wait(0.3)
+    part:Destroy()
+else
+    warn("Mesh not found inside thingNearOne.")
+end
+
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["SpinningSmoke"].Smoke:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(60) -- Emit 20 particles
+        end
+    end
+local leap1 = game.ReplicatedStorage.Resources.KJEffects["LeapParticles"].Leap:Clone()
+leap1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(leap1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local collateral1 = game.ReplicatedStorage.Resources.KJEffects["spinnyweenyspinner"].Attachment:Clone()
+collateral1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral2 = game.ReplicatedStorage.Resources.KJEffects["spinnyweenyspinner"].Emit:Clone()
+collateral2.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral2:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral3 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningparty:Clone()
+collateral3.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral4 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningpartysmoke:Clone()
+collateral4.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral4:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral5 = game.ReplicatedStorage.Resources.KJEffects["spinbeam"].beam2:Clone()
+collateral5.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral5:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral6 = game.ReplicatedStorage.Resources.KJEffects["ColateralImapct"].HitTwo:Clone()
+collateral6.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral6:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral7 = game.ReplicatedStorage.Resources.KJEffects["ColateralImapctTest"].HitTwo:Clone()
+collateral7.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral7:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local collateral8 = game.ReplicatedStorage.Resources.KJEffects["ColateralImapctTest2"].HitTwo:Clone()
+collateral8.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(collateral8:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(2) -- Emit 20 particles
+        end
+    end
+local fine3 = game.ReplicatedStorage.Resources.KJEffects["fine...Emit"].EmitBatch2:Clone()
+fine3.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(fine3:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["ImpactEffect2"].Attachment:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(3) -- Emit 20 particles
+        end
+    end
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["SpinningSmoke"].Smoke:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(20) -- Emit 20 particles
+        end
+    end
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["spinnerthing"].spinningpartysmoke:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(3) -- Emit 20 particles
+        end
+    end
+local text = "Ruining This Place Out Time.."
+
+local chatService=game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")local function sendMessage(text)chatService:WaitForChild("SayMessageRequest"):FireServer(text,"All")end sendMessage(text)
+local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. Animation
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+p:Play()
+end)
+
+local ToolName = "Signature Slice"
+local Animation = 15290930205
+
+local t = Instance.new("Tool")
+t.Name = ToolName
+t.RequiresHandle = false
+t.CanBeDropped = false
+t.Parent = game.Players.LocalPlayer.Backpack
+t.Activated:Connect(function()local rs = game:GetService("ReplicatedStorage")
+local ws = game:GetService("Workspace")
+local p = game.Players.LocalPlayer
+local char = p.Character
+local hrp = char and char:FindFirstChild("HumanoidRootPart")
+local cam = game.Workspace.CurrentCamera
+
+if hrp and cam then
+    local spinbeam = rs:FindFirstChild("Resources") and rs.Resources:FindFirstChild("KJEffects") and rs.Resources.KJEffects:FindFirstChild("spinbeam")
+    if spinbeam then
+        local c = spinbeam:Clone()
+
+        -- Position the clone where the player is looking
+        c.CFrame = CFrame.new(hrp.Position + cam.CFrame.LookVector * 5)  -- Adjust the multiplier for distance
+
+        local beam2 = c:FindFirstChild("beam2")
+        if beam2 then
+            local beam = beam2:FindFirstChild("Beam")
+            if beam then
+                beam.Enabled = true
+            end
+        end
+
+        local t = ws:FindFirstChild("Thrown") or Instance.new("Folder", ws)
+        t.Name = "Thrown"
+        c.Parent = t
+
+        -- Destroy the cloned object after 1 second
+        wait(1)
+        c:Destroy()
+    end
+end
+local text = "Slicing My Way Outta Here..."
+
+local chatService=game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")local function sendMessage(text)chatService:WaitForChild("SayMessageRequest"):FireServer(text,"All")end sendMessage(text)
+local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. Animation
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+p:Play()
+end)
+
+local UltBarName = "21 SERIES"
+
+-- don't chabge anything here
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local function findGuiAndSetText()
+    local screenGui = playerGui:FindFirstChild("ScreenGui")
+    if screenGui then
+        local magicHealthFrame = screenGui:FindFirstChild("MagicHealth")
+        if magicHealthFrame then
+            local textLabel = magicHealthFrame:FindFirstChild("TextLabel")
+            if textLabel then
+                textLabel.Text = UltBarName
+            end
+        end
+    end
+end
+
+playerGui.DescendantAdded:Connect(function(descendant)
+    if descendant:IsDescendantOf(playerGui:FindFirstChild("ScreenGui")) then
+        findGuiAndSetText()
+    end
+end)
+
+findGuiAndSetText()
+end
+
+
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local topbarPlus = playerGui:WaitForChild("TopbarPlus")
+local topbarContainer = topbarPlus:WaitForChild("TopbarContainer")
+local unnamedIcon = topbarContainer:WaitForChild("UnnamedIcon")
+local dropdownContainer = unnamedIcon:WaitForChild("DropdownContainer")
+local dropdownFrame = dropdownContainer:WaitForChild("DropdownFrame")
+
+local charFrame = Instance.new("Frame")
+charFrame.Name = "Char"
+charFrame.Parent = dropdownFrame
+charFrame.BackgroundTransparency = 1
+charFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+charFrame.BorderSizePixel = 1
+charFrame.LayoutOrder = 14
+charFrame.Size = UDim2.new(1, 0, 0, 32)
+charFrame.SizeConstraint = Enum.SizeConstraint.RelativeXY
+charFrame.ZIndex = 1
+
+local iconButton = Instance.new("TextButton")
+iconButton.Name = "IconButton"
+iconButton.Parent = charFrame
+iconButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+iconButton.BackgroundTransparency = 0.5
+iconButton.BorderSizePixel = 0
+iconButton.Text = ""
+iconButton.TextScaled = false
+iconButton.TextSize = 8
+iconButton.TextTransparency = 1
+iconButton.TextWrapped = false
+iconButton.Position = UDim2.new(0, 0, 0, 0)
+iconButton.Size = UDim2.new(1, 0, 1, 0)
+iconButton.SizeConstraint = Enum.SizeConstraint.RelativeXY
+iconButton.Font = Enum.Font.Legacy
+iconButton.LayoutOrder = 0
+
+local iconImage = Instance.new("ImageLabel")
+iconImage.Name = "IconImage"
+iconImage.Parent = iconButton
+iconImage.AnchorPoint = Vector2.new(0, 0.5)
+iconImage.BackgroundTransparency = 1
+iconImage.BorderColor3 = Color3.fromRGB(27, 42, 53)
+iconImage.BorderSizePixel = 1
+iconImage.Image = "rbxassetid://" .. CharacterIcon
+iconImage.ImageColor3 = Color3.fromRGB(255, 255, 255)
+iconImage.ImageRectOffset = Vector2.new(0, 0)
+iconImage.ImageRectSize = Vector2.new(0, 0)
+iconImage.ImageTransparency = 0
+iconImage.LayoutOrder = 0
+iconImage.Position = UDim2.new(0, 12, 0, 15)
+iconImage.Size = UDim2.new(0, 24, 0, 24)
+iconImage.SizeConstraint = Enum.SizeConstraint.RelativeXY
+iconImage.TileSize = UDim2.new(1, 0, 1, 0)
+iconImage.SliceScale = 1
+iconImage.ZIndex = 11
+
+local iconLabel = Instance.new("TextLabel")
+iconLabel.Name = "IconLabel"
+iconLabel.Parent = iconButton
+iconLabel.AnchorPoint = Vector2.new(0, 0.5)
+iconLabel.BackgroundTransparency = 1
+iconLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+iconLabel.BorderSizePixel = 1
+iconLabel.Font = Enum.Font.GothamMedium
+iconLabel.LayoutOrder = 0
+iconLabel.Text = CharacterName
+iconLabel.TextColor3 = Color3.fromRGB(255, 216, 19)
+iconLabel.TextSize = 14
+iconLabel.TextScaled = false
+iconLabel.TextTransparency = 0
+iconLabel.TextWrapped = false
+iconLabel.TextXAlignment = Enum.TextXAlignment.Left
+iconLabel.TextYAlignment = Enum.TextYAlignment.Center
+iconLabel.Position = UDim2.new(0, 44, 0, 15)
+iconLabel.Size = UDim2.new(1, -56, 0, 7)
+iconLabel.TextStrokeTransparency = 1
+iconLabel.ZIndex = 11
+
+local function onErrorNotification()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "NOTIFICATION";
+        Text = "YOU'RE ALREADY PLAYING AS THIS CHARACTER.";
+        Icon = "";
+        Duration = 5;
+    })
+end
+
+local function handleIconButtonClick()
+    Script()
+    local character = player.Character
+    if not character then
+        return
+    end
+
+    local scriptHasRun = character:FindFirstChild("ScriptHasRun")
+    if scriptHasRun and scriptHasRun.Value then
+        onErrorNotification()
+        return
+    end
+
+    if not scriptHasRun then
+        scriptHasRun = Instance.new("BoolValue")
+        scriptHasRun.Name = "ScriptHasRun"
+        scriptHasRun.Value = true
+        scriptHasRun.Parent = character
+    else
+        scriptHasRun.Value = true
+    end
+end
+
+iconButton.MouseButton1Click:Connect(handleIconButtonClick)
+
+print("Script Loaded 0 cap")  -- Debug print to confirm script initialization
+
+player.CharacterAdded:Connect(function(character)
+    local scriptHasRun = character:FindFirstChild("ScriptHasRun")
+    if scriptHasRun then
+        scriptHasRun.Value = false
+    end
+end)
+
+if player.Character then
+    local scriptHasRun = player.Character:FindFirstChild("ScriptHasRun")
+    if scriptHasRun then
+        scriptHasRun.Value = false
+    end
+end
